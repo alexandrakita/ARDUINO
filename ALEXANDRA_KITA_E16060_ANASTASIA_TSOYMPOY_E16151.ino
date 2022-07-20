@@ -86,7 +86,6 @@ lcd.setCursor(16,3);
 lcd.print(ledprint); 
 }
 
-
 motorprint=map(motorpwm, 0, 255, 0, 100);
 if (motorprint<10){
 lcd.setCursor(16,2);
@@ -104,6 +103,5 @@ else{
 lcd.setCursor(16,2);
 lcd.print(motorprint); 
 }
-
 
 }
