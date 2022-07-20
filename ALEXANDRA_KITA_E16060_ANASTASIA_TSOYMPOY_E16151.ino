@@ -18,7 +18,6 @@ int motorprint=0;
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(12, 11, 10, 9, 8, 7);
 
-
 void setup(){
 lcd.begin(20, 4);
 lcd.setCursor(0, 0);
